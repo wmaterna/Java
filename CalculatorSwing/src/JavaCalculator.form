@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="JavaCalculator">
+  <grid id="27dc6" binding="JavaCalculator" layout-manager="GridLayoutManager" row-count="5" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="765" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="5712c" class="javax.swing.JButton" binding="buttonDot">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="116" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="9d065" class="javax.swing.JButton" binding="buttonEight">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="116" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="7caa3" class="javax.swing.JButton" binding="buttonTwo">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="116" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="27241" class="javax.swing.JButton" binding="buttonFive">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="116" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <iconTextGap value="2"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="ffe24" class="javax.swing.JButton" binding="buttonThree">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="104" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="1bc7a" class="javax.swing.JButton" binding="buttonNine">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="104" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="f6924" class="javax.swing.JButton" binding="buttonClear">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="104" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="2fdc2" class="javax.swing.JButton" binding="buttonPlus">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="c918b" class="javax.swing.JButton" binding="buttonOne">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="a6d87" class="javax.swing.JButton" binding="buttonFour">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="daad" class="javax.swing.JButton" binding="buttonSeven">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="25400" class="javax.swing.JButton" binding="buttonZero">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="b5c5e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="d0e84" class="javax.swing.JButton" binding="buttonSix">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="104" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="2b9d" class="javax.swing.JButton" binding="buttonMinus">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="f2214" class="javax.swing.JButton" binding="buttonMultiply">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="22633" class="javax.swing.JButton" binding="buttonEquals">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="11" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="fe81" class="javax.swing.JButton" binding="buttonDivide">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="/"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
